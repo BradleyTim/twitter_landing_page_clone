@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  height: 93vh;
+  display: flex;
+}
+
+section.informational {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1da1f2;
+}
+
+section.informational div.info-container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section.informational div.info-container div {
+  padding: 1.5rem;
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: #fff;
+  text-align: justify;
+}
+
+section.informational div.info-container div i {
+  font-size: 100;
+}
+
+section.login-register {
+  width: 50%;
+  padding: 2rem;
+}
+
+section.login-register div {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+section.login-register div form {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 20%;
+}
+
+section.login-register form div {
+  padding-left: .95rem;
+}
+
+section.login-register form input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 1rem 2rem;
+
+}
+
+section.login-register div .title {
+  width: 60%;
+  margin: auto;
+}
+
+section.login-register div .title h1 {
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+section.login-register div .lead {
+  font-size: .9rem;
+  font-weight: 800;
+  width: 60%;
+  margin: auto;
+  margin-top: 7%;
+}
+
+section.login-register div .buttons {
+  width: 65%;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+section.login-register div .buttons a {
+  border: 1px solid #1da1f2;
+  border-radius: 20px;
+  padding: .5rem 3rem;
+  text-align: center;
+  margin: 8px;
+  color: #1da1f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section.login-register div .buttons .sign-up {
+  background: #1da1f2;
+  color: #fff;
+}
+
+section.login-register form div:last-child input {
+  border: 1px solid #1da1f2;
+  padding: 1rem;
+  font-weight: 700;
+  background: #fff;
+  border-radius: 35%;
+  color: #1da1f2;
+}
+
+footer {
+  height: 7vh;
+  border-top: 1px solid #ccc;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  padding: 1rem;
+}
+
+footer ul li {
+  padding-left: 1rem;
+}
+
+footer ul li a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.85rem;
+}
